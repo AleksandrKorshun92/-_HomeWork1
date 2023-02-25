@@ -19,8 +19,8 @@ Console.WriteLine("Thank you");
 
 // Task 4. Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел
 // В условиях задачи нет указания на какие должны быть числа, поэтому сделал их дробными.
-
-/*Console.WriteLine("Hello, what is your name ?");
+/*
+Console.WriteLine("Hello, what is your name ?");
 string name = Console.ReadLine();
 Console.WriteLine(name + " Write the first fractional number ");
 double number1 = Convert.ToDouble(Console.ReadLine());
@@ -77,3 +77,22 @@ else
 }
 Console.Write("Thank you " + name + " , bye bye!!!");
 */
+
+// Task 8. Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+// В условиях задачи нет указания на какие должны быть числа, поэтому сделал их целыми.
+
+Console.WriteLine("Hello, what you name ?");
+string name = Console.ReadLine();
+Console.Clear();
+Console.WriteLine(name + " write number");
+int number1 = Convert.ToInt32(Console.ReadLine());
+int current = 2;
+Console.Clear();
+    while(current <= number1)
+    {
+        Console.Write(current + " ");
+        current+=2;
+    }
+
+
+Console.WriteLine("Thank you " + name + " , bye bye!!!");
