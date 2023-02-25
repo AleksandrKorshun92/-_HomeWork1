@@ -1,7 +1,7 @@
 ﻿// Task 2. Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 // В условиях задачи нет указания на какие должны быть числа, поэтому сделал их целыми.
 
-Console.WriteLine("Hello, write the first integer number ");
+/*Console.WriteLine("Hello, write the first integer number ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Write the second integer number ");
 int number2 = Convert.ToInt32(Console.ReadLine());
@@ -15,3 +15,44 @@ else
     Console.WriteLine("The largest number " + number1);
 }
 Console.WriteLine("Thank you");
+*/
+
+// Task 3. Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел
+// В условиях задачи нет указания на какие должны быть числа, поэтому сделал их дробными.
+
+Console.WriteLine("Hello, what is your name ?");
+string name = Console.ReadLine();
+Console.WriteLine(name + " Write the first fractional number ");
+double number1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine(name + " Write the second fractional number ");
+double number2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine(name + " Write the third fractional number ");
+double number3 = Convert.ToDouble(Console.ReadLine());
+Console.Clear();
+double max = number1;
+if(number2 > max)
+{
+    max = number2;
+    if(number3 > max)
+    {
+        Console.WriteLine("The largest number " + number3);
+    }
+    else
+    {
+        Console.WriteLine("The largest number " + number2);
+    }
+    
+}
+else 
+{
+    max = number1;
+    if(number3 > max)
+    {
+        Console.WriteLine("The largest number " + number3);
+    }
+    else
+    {
+        Console.WriteLine("The largest number " + number1);
+    }
+}
+Console.Write("Thank you " + name);
