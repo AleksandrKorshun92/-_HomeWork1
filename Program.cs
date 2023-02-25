@@ -80,7 +80,7 @@ Console.Write("Thank you " + name + " , bye bye!!!");
 
 // Task 8. Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 // В условиях задачи нет указания на какие должны быть числа, поэтому сделал их целыми.
-
+/*
 Console.WriteLine("Hello, what you name ?");
 string name = Console.ReadLine();
 Console.Clear();
@@ -96,3 +96,4 @@ Console.Clear();
 
 
 Console.WriteLine("Thank you " + name + " , bye bye!!!");
+*/
