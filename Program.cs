@@ -17,10 +17,10 @@ else
 Console.WriteLine("Thank you");
 */
 
-// Task 3. Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел
+// Task 4. Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел
 // В условиях задачи нет указания на какие должны быть числа, поэтому сделал их дробными.
 
-Console.WriteLine("Hello, what is your name ?");
+/*Console.WriteLine("Hello, what is your name ?");
 string name = Console.ReadLine();
 Console.WriteLine(name + " Write the first fractional number ");
 double number1 = Convert.ToDouble(Console.ReadLine());
@@ -56,3 +56,24 @@ else
     }
 }
 Console.Write("Thank you " + name);
+*/
+
+// Task 6. Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+// В условиях задачи нет указания на какие должны быть числа, поэтому сделал их целыми.
+/*
+Console.WriteLine("Hello, what you name ?");
+string name = Console.ReadLine();
+Console.Clear();
+Console.WriteLine(name + " Write number ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+if (number % 2 == 0)
+{
+    Console.WriteLine(number + " is an even number");
+}
+else
+{
+    Console.WriteLine(number + " odd number");
+}
+Console.Write("Thank you " + name + " , bye bye!!!");
+*/
